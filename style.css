@@ -1,0 +1,550 @@
+
+#navbar {
+    background-color: white;
+    text-align: right;
+    padding-right: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-family: Manrope, sans-serif;
+    border-bottom: 1px solid #ddd;
+}
+
+#navbar a {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#navbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    height: 55px;
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+    font-family: Manrope, sans-serif;
+}
+
+#navbar1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+#navbar1 a:first-child {
+    display: flex;
+    align-items: center;
+}
+
+#navbar1 i {
+    font-size: 18px;
+}
+
+.home-makeup {
+    text-align: center;
+    padding-top: 16px;
+}
+
+.home-makeup a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.home-makeup span {
+    color: #999;
+    font-size: 25px;
+}
+
+.carousel {
+    width: 85%;
+    margin: 30px auto;
+    position: relative;
+}
+
+.carousel img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+
+.makeup-products {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.makeup-products a {
+    font: 22.8048px Manrope, sans-serif;
+    font-weight: bold;
+}
+
+.showing {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.showing a {
+    font: 14px Manrope, sans-serif;
+    font-weight: bold;
+}
+
+.showing span {
+    color: purple;
+}
+
+.filter-table {
+    display: flex;
+    align-items: center;
+
+    width: 90%;
+    max-width: 1360px;
+
+    height: 74px;
+
+    margin: 10px auto 0;
+
+    border: 1px solid #ddd;
+
+    box-sizing: border-box;
+
+    background-color: white;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 0 18px;
+
+    height: 48px;
+
+    min-width: 100px;
+
+    border-right: 1px solid #ddd;
+
+    box-sizing: border-box;
+}
+
+.filter div {
+    font-size: 17px;
+    font-family: Manrope, sans-serif;
+
+    margin-bottom: 4px;
+
+    white-space: nowrap;
+}
+
+.filter span {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.filter small {
+    font-size: 14px;
+    font-family: Manrope, sans-serif;
+
+    white-space: nowrap;
+}
+
+.fliter1 {
+    flex: 1;
+}
+
+.filter2 {
+    min-width: 150px;
+
+    margin-left: auto;
+
+    border-right: none;
+}
+
+.shop {
+    text-align: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.shop span {
+    color: black;
+
+    font-family: Manrope, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.items-row1 {
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: 55px;
+
+    width: 100%;
+
+    margin: 0 auto 40px;
+}
+
+.product {
+    width: 235px;
+
+    flex-shrink: 0;
+}
+
+.product img {
+    display: block;
+
+    width: 235px;
+    height: 235px;
+
+    object-fit: cover;
+
+    margin: 0;
+    padding: 0;
+}
+
+.product p {
+    font-family: Manrope, sans-serif;
+
+    font-size: 14px;
+    line-height: 20px;
+
+    margin-top: 15px;
+    margin-bottom: 8px;
+
+    color: #222;
+
+    display: -webkit-box;
+
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+}
+
+.product h3 {
+    font-family: Manrope, sans-serif;
+
+    font-size: 18px;
+
+    margin: 0;
+
+    color: #111;
+}
+
+.product del {
+    color: #777;
+
+    font-size: 14px;
+
+    font-weight: normal;
+
+    margin-left: 5px;
+}
+
+.product h3 span {
+    color: #16805c;
+
+    font-size: 14px;
+
+    margin-left: 5px;
+}
+
+.rating {
+    margin-top: 8px;
+
+    font-family: Manrope, sans-serif;
+}
+
+.rating-box {
+    background-color: #16805c;
+
+    color: white;
+
+    padding: 4px 8px;
+
+    border-radius: 12px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+}
+
+.reviews {
+    color: #777;
+
+    font-size: 14px;
+
+    margin-left: 6px;
+}
+
+.cart-row {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-top: 12px;
+}
+
+.add-to-cart {
+    width: 215px;
+}
+
+.add-to-cart button {
+    width: 100%;
+    height: 44px;
+
+    background-color: white;
+
+    color: #a000b5;
+
+    border: 1px solid #a000b5;
+
+    border-radius: 7px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.heart {
+    width: 40px;
+    height: 44px;
+
+    background-color: white;
+
+    border: none;
+
+    font-size: 30px;
+
+    color: #777;
+
+    cursor: pointer;
+}
+
+.login-overlay {
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.55);
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+}
+
+.login-page {
+    position: relative;
+
+    width: 440px;
+
+    background-color: white;
+
+    padding: 18px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+
+    font-family: Manrope, sans-serif;
+}
+
+.close-btn {
+    position: absolute;
+
+    top: 0;
+    right: -45px;
+
+    width: 36px;
+    height: 36px;
+
+    background-color: white;
+
+    border: none;
+
+    border-radius: 50%;
+
+    font-size: 28px;
+
+    line-height: 30px;
+
+    cursor: pointer;
+}
+
+.login1 {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 70px;
+
+    background-color: #f8eaf2;
+
+    margin-bottom: 12px;
+}
+
+.login1 div {
+    width: 50%;
+    height: 55px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    border-right: 1px solid #ddd;
+}
+
+.login1 div:last-child {
+    border-right: none;
+}
+
+.login1 span {
+    display: block;
+
+    font-size: 10px;
+
+    letter-spacing: 3px;
+
+    color: #333;
+}
+
+.login1 strong {
+    font-size: 24px;
+
+    color: #111;
+}
+
+.login1 small {
+    display: block;
+
+    font-size: 8px;
+
+    margin-top: -2px;
+}
+
+.login-page h3 {
+    text-align: center;
+
+    font-size: 14px;
+
+    font-weight: normal;
+
+    color: #333;
+
+    margin: 14px 0 20px;
+}
+
+.login-page input[type="text"] {
+    width: 100%;
+
+    height: 58px;
+
+    padding: 0 14px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #ddd;
+
+    border-radius: 7px;
+
+    outline: none;
+
+    font-size: 13px;
+
+    font-family: Manrope, sans-serif;
+}
+
+.continue-btn {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 54px;
+
+    margin-top: 25px;
+
+    background-color: #dfe5f0;
+
+    color: #8b98ad;
+
+    border: none;
+
+    border-radius: 7px;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    font-family: Manrope, sans-serif;
+
+    font-weight: bold;
+
+    box-sizing: border-box;
+
+    cursor: pointer;
+}
+
+.address-option {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 18px;
+
+    font-size: 10px;
+
+    color: #555;
+}
+
+.address-option input {
+    width: 22px;
+    height: 22px;
+
+    accent-color: #a000b5;
+}
+
+.terms {
+    text-align: center;
+
+    font-size: 10px;
+
+    line-height: 17px;
+
+    color: #666;
+
+    margin-top: 15px;
+}
+
+.terms span {
+    color: #a000b5;
+}
